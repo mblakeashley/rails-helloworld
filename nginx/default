@@ -1,7 +1,7 @@
 server {
-        listen 80 default_server;
+        listen 80;
         listen [::]:80 default_server;
-        root /var/www/rails-helloworld/app/views/hello;
+        root /var/web_app/app/views/hello;
         index index.html;
         server_name _;
         location / {
